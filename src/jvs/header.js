@@ -20,7 +20,7 @@ function inserirHeader() {
                     </ul>
                 </div>
             </section>
-            <section class="py-3 mb-4 border-bottom"> 
+            <section class="py-3 border-bottom"> 
                 <div class="container d-flex flex-wrap justify-content-between">
                     <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
                         <img class="bi me-2" width="40" height="32" src="/src/media/img/logo-viagens.webp" alt="">
