@@ -1,6 +1,6 @@
 function chamaFooter() {
     const footer = document.createElement("footer");
-    footer.className = "py-5 bg-dark text-white";
+    footer.className = "py-5 mt-5 bg-dark text-white";
     footer.innerHTML = `
         <div class="container">
             <div class="row align-items-center justify-content-md-between">
