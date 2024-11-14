@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viamar.com, você feliz, sempre!</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="icon" href="media/img/logo-viagens.webp" type="image/x-icon">
+</head>
+<body style="box-sizing: border-box">
+
+<!--Header-->
+<header id="head">
+</header>
+
+<section class="my-5 row">
+
+    <!--Barra lateral esquerda-->
+    <aside class="d-none d-lg-flex flex-column justify-content-start align-items-center col-md-3 bg-light rounded-2 text-white p-0">
+
+        <div class="p-4 mb-3 bg-body-tertiary text-dark rounded">
+            <h4 class="fst-italic text-center">Links & Referências</h4>
+            <p class="mb-0 text-center">Use os links abaixo para navegar a página</p>
+        </div>
+
+        <div class="bg-white shadow-lg text-dark p-5 position-sticky mt-4 w-75" style="top: 20px;">
+
+            <!--Barra lateral de itens colapsáveis-->
+            <div class="flex-shrink-0 w-100">
+                <a href="#inicioo" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom text-center">
+                    <span class="fs-5 fw-semibold">Início</span>
+                </a>
+                <ul class="list-unstyled ps-0 text-start">
+                    <li class="mb-1 text-start">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0">
+                            <a href="#tabelaPrecos" class="link-body-emphasis text-decoration-none">1 - Tabela de Preços</a>
+                        </button>
+                    </li>
+
+                    <li class="mb-1 text-start">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0">
+                            <a href="#tabelaHoteis" class="link-body-emphasis text-decoration-none">2 - Tabela de Hotéis</a>
+                        </button>
+                    </li>
+
+                    <li class="mb-1 text-start">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0">
+                            <a href="#tabelaTurismo" class="link-body-emphasis text-decoration-none">3 - Tabela de P. Turisticos</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+<!--Conteúdo principal-->
+<main class="col-12 col-md-9 col-lg-7 bg-white p-0">
+
+    <!-- Texto introdutório -->
+    <div class="container" id="inicioo">
+        <h1 class="text-center">Explore Destinos <span class="bg-success-subtle px-2 rounded-3 fw-bold">Fascinantes pelo Mundo</span></h1>
+        <p class="lead mt-3">
+            Bem-vindo à sua central de informações para planejar a viagem dos sonhos! Nossa página traz tudo que você precisa para explorar destinos icônicos ao redor do mundo, com comparações detalhadas de preços, hospedagens e atrações turísticas. 
+        </p>
+    </div>
+
+<!-- Carrossel de Banners -->
+    <section id="carousel" class="mt-4">
+        <div class="container-md">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item active">
+                        <img class="d-none d-md-block w-100 img-fluid" src="/src/media/img/1.jpg" alt="Banner para Desktop">
+                        <img class="d-block d-md-none w-100 img-fluid" src="/src/media/img/banners/mobile/bannerBemVindoJaneiroMobile.png" alt="Banner para mobile">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-none d-md-block w-100 img-fluid" src="/src/media/img/2.jpg" alt="Banner para Desktop">
+                        <img class="d-block d-md-none w-100 img-fluid" src="/src/media/img/banners/mobile/bannerBemVindoJaneiroMobile.png" alt="Banner para mobile">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-none d-md-block w-100 img-fluid" src="/src/media/img/3.jpg" alt="Banner para Desktop">
+                        <img class="d-block d-md-none w-100 img-fluid" src="/src/media/img/banners/mobile/bannerBemVindoJaneiroMobile.png" alt="Banner para mobile">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-none d-md-block w-100 img-fluid" src="/src/media/img/5.jpg" alt="Banner para Desktop">
+                        <img class="d-block d-md-none w-100 img-fluid" src="/src/media/img/banners/mobile/bannerBemVindoJaneiroMobile.png" alt="Banner para mobile">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-none d-md-block w-100 img-fluid" src="/src/media/img/6.jpg" alt="Banner para Desktop">
+                        <img class="d-block d-md-none w-100 img-fluid" src="/src/media/img/banners/mobile/bannerBemVindoJaneiroMobile.png" alt="Banner para mobile">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-none d-md-block w-100 img-fluid" src="/src/media/img/7.jpg" alt="Banner para Desktop">
+                        <img class="d-block d-md-none w-100 img-fluid" src="/src/media/img/banners/mobile/bannerBemVindoJaneiroMobile.png" alt="Banner para mobile">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Texto introdutorio 2 -->
+    <div class="container mt-4">
+        <p class="">
+            Aqui, você encontrará uma seleção dos melhores lugares para visitar, desde cidades mundialmente famosas como Paris e Nova York até metrópoles modernas como Tóquio e Dubai. Cada destino oferece experiências únicas, e nossa lista de pontos turísticos inclui atrações icônicas que vão enriquecer sua viagem, como a Torre Eiffel, o Empire State Building e o Burj Khalifa.
+        </p>
+        <p class="">
+            Além disso, fizemos uma comparação completa de hotéis para cada destino, permitindo que você encontre a acomodação ideal para seu orçamento e preferências. Nossas tabelas de preços e detalhes turísticos foram cuidadosamente elaboradas para ajudar você a tomar as melhores decisões, garantindo uma experiência de viagem memorável e inesquecível. Prepare-se para explorar novos horizontes e mergulhar em culturas fascinantes!
+        </p>
+    </div>
+    
+
+    <!-- Tabela de preços pra diversos destinos -->
+    <div class="container" id="tabelaPrecos">
+        
+        <div class="container mt-4">
+            <h2 class="text-center">Preços de Viagens para Diversos Destinos</h2>
+            <p class="text-muted text-center small mt-3">
+                Encontre as melhores opções de preços para viagens internacionais, com detalhes que vão desde passagens e hospedagem até taxas adicionais. Compare custos de destinos variados e planeje sua próxima aventura de forma prática e acessível!
+            </p>
+        </div>
+        
+        
+        
+        <!-- Tabela de preços -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Destino</th>
+                        <th scope="col">País</th>
+                        <th scope="col">Preço Estimado (ida e volta)</th>
+                        <th scope="col">Duração da Viagem</th>
+                        <th scope="col">Melhor Época</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Linha 1 -->
+                    <tr>
+                        <td>Paris</td>
+                        <td>França</td>
+                        <td>R$ 3.500,00</td>
+                        <td>7 dias</td>
+                        <td>Primavera (abril a junho)</td>
+                    </tr>
+                    <!-- Linha 2 -->
+                    <tr>
+                        <td>Nova York</td>
+                        <td>Estados Unidos</td>
+                        <td>R$ 4.200,00</td>
+                        <td>7 dias</td>
+                        <td>Outono (setembro a novembro)</td>
+                    </tr>
+                    <!-- Linha 3 -->
+                    <tr>
+                        <td>Tokyo</td>
+                        <td>Japão</td>
+                        <td>R$ 5.000,00</td>
+                        <td>10 dias</td>
+                        <td>Outono (setembro a novembro)</td>
+                    </tr>
+                    <!-- Linha 4 -->
+                    <tr>
+                        <td>Barcelona</td>
+                        <td>Espanha</td>
+                        <td>R$ 3.200,00</td>
+                        <td>8 dias</td>
+                        <td>Verão (junho a agosto)</td>
+                    </tr>
+                    <!-- Linha 5 -->
+                    <tr>
+                        <td>Dubai</td>
+                        <td>Emirados Árabes Unidos</td>
+                        <td>R$ 6.000,00</td>
+                        <td>6 dias</td>
+                        <td>Inverno (dezembro a fevereiro)</td>
+                    </tr>
+                    <!-- Linha 6 -->
+                    <tr>
+                        <td>Bangkok</td>
+                        <td>Tailândia</td>
+                        <td>R$ 3.800,00</td>
+                        <td>9 dias</td>
+                        <td>Inverno (novembro a fevereiro)</td>
+                    </tr>
+                    <!-- Linha 7 -->
+                    <tr>
+                        <td>Roma</td>
+                        <td>Itália</td>
+                        <td>R$ 3.000,00</td>
+                        <td>7 dias</td>
+                        <td>Primavera (março a junho)</td>
+                    </tr>
+                    <!-- Linha 8 -->
+                    <tr>
+                        <td>Melbourne</td>
+                        <td>Austrália</td>
+                        <td>R$ 7.200,00</td>
+                        <td>10 dias</td>
+                        <td>Verão (dezembro a fevereiro)</td>
+                    </tr>
+                    <!-- Linha 9 -->
+                    <tr>
+                        <td>Cairo</td>
+                        <td>Egito</td>
+                        <td>R$ 4.500,00</td>
+                        <td>7 dias</td>
+                        <td>Outono (setembro a novembro)</td>
+                    </tr>
+                    <!-- Linha 10 -->
+                    <tr>
+                        <td>Rio de Janeiro</td>
+                        <td>Brasil</td>
+                        <td>R$ 2.200,00</td>
+                        <td>5 dias</td>
+                        <td>Verão (dezembro a fevereiro)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+    <!-- Tabela de hoteis -->
+    <div class="container" id="tabelaHoteis">
+        
+        <div class="container mt-4">
+            <h2 class="text-center">Comparação de Hotéis em Diversos Destinos</h2>
+            <p class="text-muted text-center small mt-3">
+                Explore e compare opções de hotéis em destinos variados ao redor do mundo. Encontre acomodações que atendam às suas necessidades e orçamento, com informações detalhadas para garantir a melhor experiência durante sua estadia.
+            </p>
+        </div>
+        
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Destino</th>
+                        <th scope="col">Hotel</th>
+                        <th scope="col">Preço por Noite (Quarto Duplo)</th>
+                        <th scope="col">Classificação</th>
+                        <th scope="col">Tipo de Quarto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Paris -->
+                    <tr>
+                        <td rowspan="5">Paris</td>
+                        <td>Hotel Le Meurice</td>
+                        <td>R$ 2.800,00</td>
+                        <td>★★★★★</td>
+                        <td>Quarto Standard</td>
+                    </tr>
+                    <tr>
+                        <td>Le Bristol Paris</td>
+                        <td>R$ 3.200,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Júnior</td>
+                    </tr>
+                    <tr>
+                        <td>Hôtel Plaza Athénée</td>
+                        <td>R$ 3.500,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Luxo</td>
+                    </tr>
+                    <tr>
+                        <td>Novotel Paris</td>
+                        <td>R$ 900,00</td>
+                        <td>★★★★</td>
+                        <td>Quarto Família</td>
+                    </tr>
+                    <tr>
+                        <td>IBIS Paris</td>
+                        <td>R$ 600,00</td>
+                        <td>★★★</td>
+                        <td>Quarto Econômico</td>
+                    </tr>
+                    <!-- Nova York -->
+                    <tr>
+                        <td rowspan="5">Nova York</td>
+                        <td>The Plaza Hotel</td>
+                        <td>R$ 4.000,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Premium</td>
+                    </tr>
+                    <tr>
+                        <td>Four Seasons Hotel</td>
+                        <td>R$ 3.800,00</td>
+                        <td>★★★★★</td>
+                        <td>Quarto Deluxe</td>
+                    </tr>
+                    <tr>
+                        <td>The Standard</td>
+                        <td>R$ 2.200,00</td>
+                        <td>★★★★</td>
+                        <td>Quarto Executivo</td>
+                    </tr>
+                    <tr>
+                        <td>Holiday Inn Express</td>
+                        <td>R$ 1.200,00</td>
+                        <td>★★★★</td>
+                        <td>Quarto Duplo</td>
+                    </tr>
+                    <tr>
+                        <td>Hostel New York</td>
+                        <td>R$ 400,00</td>
+                        <td>★★</td>
+                        <td>Cama em Dormitório</td>
+                    </tr>
+                    <!-- Tokyo -->
+                    <tr>
+                        <td rowspan="5">Tokyo</td>
+                        <td>Park Hyatt Tokyo</td>
+                        <td>R$ 3.800,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Presidencial</td>
+                    </tr>
+                    <tr>
+                        <td>The Ritz-Carlton Tokyo</td>
+                        <td>R$ 4.500,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Superior</td>
+                    </tr>
+                    <tr>
+                        <td>Shibuya Excel Hotel Tokyu</td>
+                        <td>R$ 1.500,00</td>
+                        <td>★★★★</td>
+                        <td>Quarto Duplo</td>
+                    </tr>
+                    <tr>
+                        <td>Hotel Sunroute Plaza</td>
+                        <td>R$ 900,00</td>
+                        <td>★★★</td>
+                        <td>Quarto Econômico</td>
+                    </tr>
+                    <tr>
+                        <td>Khaosan Tokyo Hostel</td>
+                        <td>R$ 200,00</td>
+                        <td>★★</td>
+                        <td>Cama em Dormitório</td>
+                    </tr>
+                    <!-- Barcelona -->
+                    <tr>
+                        <td rowspan="5">Barcelona</td>
+                        <td>Hotel Arts Barcelona</td>
+                        <td>R$ 2.800,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Mar</td>
+                    </tr>
+                    <tr>
+                        <td>Majestic Hotel & Spa</td>
+                        <td>R$ 2.500,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Júnior</td>
+                    </tr>
+                    <tr>
+                        <td>W Barcelona</td>
+                        <td>R$ 1.800,00</td>
+                        <td>★★★★</td>
+                        <td>Quarto Executivo</td>
+                    </tr>
+                    <tr>
+                        <td>Hotel Condes de Barcelona</td>
+                        <td>R$ 1.200,00</td>
+                        <td>★★★★</td>
+                        <td>Quarto Família</td>
+                    </tr>
+                    <tr>
+                        <td>Hostel One Paralelo</td>
+                        <td>R$ 150,00</td>
+                        <td>★★</td>
+                        <td>Cama em Dormitório</td>
+                    </tr>
+                    <!-- Dubai -->
+                    <tr>
+                        <td rowspan="5">Dubai</td>
+                        <td>Burj Al Arab Jumeirah</td>
+                        <td>R$ 7.500,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Real</td>
+                    </tr>
+                    <tr>
+                        <td>Atlantis The Palm</td>
+                        <td>R$ 5.500,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Imperial</td>
+                    </tr>
+                    <tr>
+                        <td>The Ritz-Carlton Dubai</td>
+                        <td>R$ 4.000,00</td>
+                        <td>★★★★★</td>
+                        <td>Suíte Luxo</td>
+                    </tr>
+                    <tr>
+                        <td>Jumeirah Beach Hotel</td>
+                        <td>R$ 3.200,00</td>
+                        <td>★★★★</td>
+                        <td>Quarto Premium</td>
+                    </tr>
+                    <tr>
+                        <td>Citymax Hotel Al Barsha</td>
+                        <td>R$ 500,00</td>
+                        <td>★★★</td>
+                        <td>Quarto Duplo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+    <!-- Tabela de pontos turisticos -->
+    <div class="container" id="tabelaTurismo">
+        
+        <div class="container mt-4">
+            <h2 class="text-center">Pontos Turísticos em Diversos Destinos</h2>
+            <p class="text-muted text-center small mt-3">
+                Descubra os pontos turísticos mais famosos e imperdíveis ao redor do mundo. Confira opções de passeios e atrações que tornarão sua viagem ainda mais inesquecível.
+            </p>
+        </div>
+        
+        
+        <!-- Tabela de Pontos Turísticos -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Destino</th>
+                        <th scope="col">Ponto Turístico</th>
+                        <th scope="col">Preço do Ingresso</th>
+                        <th scope="col">Popularidade</th>
+                        <th scope="col">Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Paris -->
+                    <tr>
+                        <td rowspan="5">Paris</td>
+                        <td>Torre Eiffel</td>
+                        <td>R$ 100,00</td>
+                        <td>★★★★★</td>
+                        <td>Ícone de Paris, oferece vistas incríveis da cidade.</td>
+                    </tr>
+                    <tr>
+                        <td>Museu do Louvre</td>
+                        <td>R$ 80,00</td>
+                        <td>★★★★★</td>
+                        <td>Lar da Mona Lisa e uma vasta coleção de arte.</td>
+                    </tr>
+                    <tr>
+                        <td>Catedral de Notre-Dame</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★</td>
+                        <td>Obra-prima da arquitetura gótica.</td>
+                    </tr>
+                    <tr>
+                        <td>Montmartre</td>
+                        <td>R$ 50,00</td>
+                        <td>★★★★</td>
+                        <td>Bairro boêmio com artistas e cafés charmosos.</td>
+                    </tr>
+                    <tr>
+                        <td>Palácio de Versalhes</td>
+                        <td>R$ 120,00</td>
+                        <td>★★★★★</td>
+                        <td>Antiga residência real com jardins espetaculares.</td>
+                    </tr>
+                    <!-- Nova York -->
+                    <tr>
+                        <td rowspan="5">Nova York</td>
+                        <td>Estátua da Liberdade</td>
+                        <td>R$ 90,00</td>
+                        <td>★★★★★</td>
+                        <td>Monumento icônico e símbolo de liberdade.</td>
+                    </tr>
+                    <tr>
+                        <td>Empire State Building</td>
+                        <td>R$ 110,00</td>
+                        <td>★★★★★</td>
+                        <td>Edifício famoso com observatório e vista panorâmica.</td>
+                    </tr>
+                    <tr>
+                        <td>Central Park</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★</td>
+                        <td>Grande parque urbano para relaxar e caminhar.</td>
+                    </tr>
+                    <tr>
+                        <td>Museu de Arte Moderna (MoMA)</td>
+                        <td>R$ 80,00</td>
+                        <td>★★★★</td>
+                        <td>Coleção de arte moderna e contemporânea de renome.</td>
+                    </tr>
+                    <tr>
+                        <td>Times Square</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★★</td>
+                        <td>Área movimentada com luzes, lojas e entretenimento.</td>
+                    </tr>
+                    <!-- Tokyo -->
+                    <tr>
+                        <td rowspan="5">Tokyo</td>
+                        <td>Templo Senso-ji</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★★</td>
+                        <td>Templo budista mais antigo de Tóquio.</td>
+                    </tr>
+                    <tr>
+                        <td>Torre de Tóquio</td>
+                        <td>R$ 70,00</td>
+                        <td>★★★★</td>
+                        <td>Inspirada na Torre Eiffel, com bela vista da cidade.</td>
+                    </tr>
+                    <tr>
+                        <td>Parque Ueno</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★</td>
+                        <td>Área popular para ver cerejeiras em flor.</td>
+                    </tr>
+                    <tr>
+                        <td>Palácio Imperial</td>
+                        <td>R$ 50,00</td>
+                        <td>★★★★</td>
+                        <td>Residência da família imperial, rodeada por belos jardins.</td>
+                    </tr>
+                    <tr>
+                        <td>Aquário de Tóquio</td>
+                        <td>R$ 60,00</td>
+                        <td>★★★★</td>
+                        <td>Grande variedade de vida marinha e shows de golfinhos.</td>
+                    </tr>
+                    <!-- Barcelona -->
+                    <tr>
+                        <td rowspan="5">Barcelona</td>
+                        <td>Sagrada Família</td>
+                        <td>R$ 90,00</td>
+                        <td>★★★★★</td>
+                        <td>Obra-prima de Gaudí, em construção por mais de um século.</td>
+                    </tr>
+                    <tr>
+                        <td>Parque Güell</td>
+                        <td>R$ 40,00</td>
+                        <td>★★★★</td>
+                        <td>Parque projetado por Gaudí, com vistas e mosaicos coloridos.</td>
+                    </tr>
+                    <tr>
+                        <td>La Rambla</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★</td>
+                        <td>Avenida famosa com lojas e performances de rua.</td>
+                    </tr>
+                    <tr>
+                        <td>Casa Batlló</td>
+                        <td>R$ 70,00</td>
+                        <td>★★★★</td>
+                        <td>Edifício modernista com design único de Gaudí.</td>
+                    </tr>
+                    <tr>
+                        <td>Castelo de Montjuïc</td>
+                        <td>R$ 30,00</td>
+                        <td>★★★</td>
+                        <td>Fortaleza histórica com vista para o porto de Barcelona.</td>
+                    </tr>
+                    <!-- Dubai -->
+                    <tr>
+                        <td rowspan="5">Dubai</td>
+                        <td>Burj Khalifa</td>
+                        <td>R$ 160,00</td>
+                        <td>★★★★★</td>
+                        <td>Edifício mais alto do mundo com vista impressionante.</td>
+                    </tr>
+                    <tr>
+                        <td>Mall of the Emirates</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★</td>
+                        <td>Shopping de luxo com pista de esqui indoor.</td>
+                    </tr>
+                    <tr>
+                        <td>Dubai Marina</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★</td>
+                        <td>Bairro moderno com passeio marítimo e restaurantes.</td>
+                    </tr>
+                    <tr>
+                        <td>Museu de Dubai</td>
+                        <td>R$ 25,00</td>
+                        <td>★★★</td>
+                        <td>Museu mostrando a história e a cultura de Dubai.</td>
+                    </tr>
+                    <tr>
+                        <td>Fonte de Dubai</td>
+                        <td>Entrada Gratuita</td>
+                        <td>★★★★★</td>
+                        <td>Espetáculo de água e luzes no Lago Burj Khalifa.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+    <!-- Fale conóis -->
+    <div class="mt-5 bg-primary text-white p-4 rounded">
+        <h3 class="text-center">Pronto para sua próxima aventura?</h3>
+        <p class="text-center">Entre em contato conosco para começar a planejar sua viagem dos sonhos. Nós estamos aqui para garantir que cada detalhe seja perfeito!</p>
+        <div class="text-center mt-3">
+            <a href="/src/html/contact.html" class="btn btn-light btn-lg">Fale Conosco</a>
+        </div>
+    </div>
+</main>
+
+
+
+    <!--Barra lateral direita-->
+    <aside class="d-none d-md-flex flex-column justify-content-start align-items-center col-md-2 bg-light rounded-2 text-white p-0">
+
+
+        <div class="bg-white shadow-lg text-dark w-100 shadow-lg" style="position: sticky; top: 20px; padding: 0;">
+            <video src="/src/media/vid/ADs/horaDeViajarVideoAD.mp4" style="width: 100%; height: auto; margin: 0; padding: 0;" muted autoplay loop></video>
+            <img class="img-fluid" src="/src/media/img/ADs/bannerProximaViagemMobile%20.png" alt="imagem reserve sua próxima viagem">
+        </div>
+
+
+
+
+
+    </aside>
+
+
+</section>
+
+<!--Footer-->
+<footer id="foot">
+</footer>
+
+<!-- Scripts -->
+<script src="/src/jvs/header.js"></script>
+<script src="/src/jvs/footer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/src/jvs/sidebars.js"></script>
+
+<!--Carrossel script-->
+<script>
+
+    const myCarouselElement = document.querySelector('#carouselExampleFade')
+
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 3000,
+        touch: false
+    })
+
+</script>
+
+</body>
+</html>
