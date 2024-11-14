@@ -36,56 +36,24 @@
                 </a>
                 <ul class="list-unstyled ps-0 text-start">
                     <li class="mb-1 text-start">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-                            Home
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0">
+                            <a href="#featuredPosts" class="link-body-emphasis text-decoration-none">1 - Destaque</a>
                         </button>
-                        <div class="collapse show ms-4" id="home-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Overview</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Updates</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Reports</a></li>
-                            </ul>
-                        </div>
                     </li>
-                    <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                            Dashboard
+                    <li class="mb-1 text-start">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0">
+                            <a href="#destinosImperdiveis" class="link-body-emphasis text-decoration-none">2 - Destinos Imperdíveis</a>
                         </button>
-                        <div class="collapse ms-4" id="dashboard-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Overview</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Weekly</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Monthly</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Annually</a></li>
-                            </ul>
-                        </div>
                     </li>
-                    <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                            Orders
+                    <li class="mb-1 text-start">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0">
+                            <a href="#CTA" class="link-body-emphasis text-decoration-none">3 - Hospedagens</a>
                         </button>
-                        <div class="collapse ms-4" id="orders-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- New</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Processed</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Shipped</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Returned</a></li>
-                            </ul>
-                        </div>
                     </li>
-                    <li class="border-top my-3"></li>
-                    <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-                            Account
+                    <li class="mb-1 text-start">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0">
+                            <a href="#falaConois" class="link-body-emphasis text-decoration-none">4 - Fale conosco</a>
                         </button>
-                        <div class="collapse ms-4" id="account-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- New...</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Profile</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Settings</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">- Sign out</a></li>
-                            </ul>
-                        </div>
                     </li>
                 </ul>
             </div>
@@ -124,6 +92,7 @@
 
             </section>
 
+            <!-- Featured posts -->
             <section id="featuredPosts">
                 <div class="row my-2">
                     <div class="col-md-6">
@@ -162,7 +131,6 @@
                 </div>
             </section>
 
-            <!-- Conteúdo principal -->
             <section class="bg-light p-4 shadow-lg">
                 <h1 class="h1 text-center">Viajar o mundo é <span class="text-primary fw-bold">mais fácil do que parece!</span></h1>
                 <p class="text-center mt-4">Com as opções de pacotes de viagem acessíveis, promoções de companhias aéreas e a facilidade de planejamento, viajar para destinos dos seus sonhos nunca foi tão simples. Seja você um aventureiro em busca de novas culturas ou alguém que só quer relaxar em uma praia paradisíaca, temos a viagem perfeita para você.</p>
@@ -211,8 +179,87 @@
                     </div>
                 </div>
 
+                <!-- CTA -->
+                <div class="my-5" id="CTA">
+                    <main>
+                      <h1 class="text-body-emphasis">Explorando Destinos, Hospedagens e Atrações</h1>
+                      <p class="fs-5 col-md-8">Encontre informações detalhadas sobre destinos de viagem, compare opções de hotéis e descubra pontos turísticos incríveis em várias partes do mundo. Planeje sua próxima aventura com tudo o que você precisa em um só lugar!</p>
+                  
+                      <div class="mb-5">
+                        <a href="/src/html/precos.html" class="btn btn-primary btn-lg px-4">Preços de Viagens para Diversos Destinos</a>
+                      </div>
+                  
+                      <hr class="col-3 col-md-2 mb-5">
+                  
+                      <div class="row g-5">
+
+                        <!-- Seção de Preços de Viagens -->
+                        <div class="col-md-4">
+                            <h2 class="text-body-emphasis">Preços de Viagens para Diversos Destinos</h2>
+                            <p class="text-muted small">Compare preços de viagens para destinos populares ao redor do mundo e encontre a melhor oferta para suas próximas férias.</p>
+                            <ul class="list-unstyled ps-0">
+                                <li>
+                                    <a class="icon-link mb-1" href="/src/html/precos.html#tabelaPrecos">
+                                    
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                        Ver tabela de preços
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon-link mb-1" href="/src/html/precos.html#tabelaPrecos">
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                        Planeje sua viagem
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Seção de Comparação de Hotéis -->
+                        <div class="col-md-4">
+                            <h2 class="text-body-emphasis">Comparação de Hotéis em Diversos Destinos</h2>
+                            <p class="text-muted small">Explore uma seleção de hotéis, com comparações de preço e detalhes para ajudá-lo a encontrar a melhor estadia para suas necessidades.</p>
+                            <ul class="list-unstyled ps-0">
+                                <li>
+                                    <a class="icon-link mb-1" href="/src/html/precos.html#tabelaHoteis">
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                        Ver tabela de hotéis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon-link mb-1" href="/src/html/precos.html#tabelaHoteis">
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                        Dicas de hospedagem
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Seção de Pontos Turísticos -->
+                        <div class="col-md-4">
+                            <h2 class="text-body-emphasis">Pontos Turísticos em Diversos Destinos</h2>
+                            <p class="text-muted small">Descubra atrações turísticas imperdíveis e locais para explorar em cada destino, tornando sua viagem inesquecível.</p>
+                            <ul class="list-unstyled ps-0">
+                                <li>
+                                    <a class="icon-link mb-1" href="/src/html/precos.html#tabelaTurismo">
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                        Ver tabela de pontos turísticos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon-link mb-1" href="/src/html/precos.html#tabelaTurismo">
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                        Melhores atrações por destino
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </main>
+                  </div>
+
+
                 <!-- Fale conóis -->
-                <div class="mt-5 bg-primary text-white p-4 rounded">
+                <div class="mt-5 bg-primary text-white p-4 rounded" id="falaConois">
                     <h3 class="text-center">Pronto para sua próxima aventura?</h3>
                     <p class="text-center">Entre em contato conosco para começar a planejar sua viagem dos sonhos. Nós estamos aqui para garantir que cada detalhe seja perfeito!</p>
                     <div class="text-center mt-3">
