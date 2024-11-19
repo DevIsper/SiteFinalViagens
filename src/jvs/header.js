@@ -8,7 +8,7 @@ function inserirHeader() {
             <section class="py-2 bg-body-tertiary border-bottom">
                 <div class="container d-flex flex-wrap">
                     <ul class="nav me-auto">
-                        <li class="nav-item"><a href="/src/index.html" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="/index.html" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
                         <li class="nav-item"><a href="/src/html/precos.html" class="nav-link link-body-emphasis px-2">Preços</a></li>
                         <li class="nav-item"><a href="/src/html/contact.html" class="nav-link link-body-emphasis px-2">Contato e FAQ</a></li>
                         <li class="nav-item"><a href="/src/html/termos.html" class="nav-link link-body-emphasis px-2">Termos</a></li>
@@ -21,7 +21,7 @@ function inserirHeader() {
             </section>
             <section class="py-3 border-bottom"> 
                 <div class="container d-flex flex-wrap justify-content-between">
-                    <a href="/src/index.html" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                    <a href="/index.html" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
                         <img class="bi me-2" width="40" height="32" src="/src/media/img/logo-viagens.webp" alt="">
                         <span class="fs-4">Viamar.com</span>
                     </a>

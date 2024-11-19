@@ -9,7 +9,7 @@ function chamaFooter() {
                 <div class="col-6 col-md-2 mb-3">
                     <h5>Páginas</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="/src/index.html" class="nav-link p-0 text-white">Home</a></li>
+                        <li class="nav-item mb-2"><a href="/index.html" class="nav-link p-0 text-white">Home</a></li>
                         <li class="nav-item mb-2"><a href="/src/html/precos.html" class="nav-link p-0 text-white">Preços</a></li>
                         <li class="nav-item mb-2"><a href="/src/html/contact.html" class="nav-link p-0 text-white">FAQ e Contato</a></li>
                         <li class="nav-item mb-2"><a href="/src/html/termos.html" class="nav-link p-0 text-white">Termos de uso</a></li>
